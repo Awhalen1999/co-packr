@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       ? `https://${process.env.VERCEL_URL}`
       : `http://localhost:${process.env.PORT || 3000}`
   ),
-  title: "CoPackR",
+  title: "CoPackr",
   description:
     "Easily plan and customize your packing lists for stress-free travel.",
   alternates: {
@@ -21,14 +21,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: "/",
-    title: "CoPackR",
+    title: "CoPackr",
     description:
       "Easily plan and customize your packing lists for stress-free travel.",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "CoPackR",
+    title: "CoPackr",
     description:
       "Easily plan and customize your packing lists for stress-free travel."
   }
